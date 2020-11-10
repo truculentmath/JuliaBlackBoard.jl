@@ -47,8 +47,8 @@ Simple **markdown** and $x^2$
     question(io, qt, q,  answer)
     
     qt = FIB_PLUS
-    q = mt"""[var1] and [var2] years ago, the founding fathers..."""
-    answer=("var1"=>("four", "Four", "4"), "var2"=>("seven", "y"))
+    q = mt"""[var1] score and [var2] years ago, our fathers brought forth..."""
+    answer=("var1"=>("four", "Four", "4"), "var2"=>("seven", "7"))
     question(io, qt, q, answer)
     
     qt = FIL
@@ -77,7 +77,7 @@ Simple **markdown** and $x^2$
     question(io, qt, q, answer...)
 
     qt = JUMBLED_SENTENCE
-    qq = "The [var1] brown [var2] jumped over the lazy [var3]"
+    qq = "The [var1] brown [var2] jumps over the lazy [var3]"
     answer = ("var1"=>"quick", "var2"=>"fox", "var3"=>"dog", nothing=>("cat", "slow", "fast"))
     question(io, qt, qq, answer)
 end
